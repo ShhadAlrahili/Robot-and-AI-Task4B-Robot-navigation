@@ -11,10 +11,12 @@
   
 3- make launch file:
   <br>
-  [<launch>
-  <node name="task4b" pkg="ai_task" type="task4b.py" />
-  <launch/>]
-   
+  &lt;launch&gt;
+   <br>
+  &lt;node name="task4b" pkg="ai_task" type="task4b.py" &gt;
+   <br>
+  &lt;launch/&gt;
+    <br>
 4- run the node:
   <br>
     a- run gazebo: roslaunch turtlebot3_gazebo turtlebot3_house.launch
