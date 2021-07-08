@@ -4,6 +4,7 @@
 <p1>1-create a package: 
   <br>
  $ cd ~/catkin_ws/src
+  <br>
  $ catkin_create_pkg ai_task geometry_msgs roscpp rospy std_msgs
   <br>
   <br>
