@@ -1,10 +1,11 @@
 # Robot-and-AI-Task4B-Robot-navigation
 <h2>Task4 -B:</h2>
 
-<p1>1- 1- create a package: 
+<p1>1-create a package: 
   <br>
  $ cd ~/catkin_ws/src
  $ catkin_create_pkg ai_task geometry_msgs roscpp rospy std_msgs
+  <br>
   <br>
 2- write python script.
   <br>  
@@ -15,6 +16,7 @@
   &lt;node name="task4b" pkg="ai_task" type="task4b.py" &gt;
    <br>
   &lt;launch/&gt;
+    <br>
     <br>
 4- run the node:
   <br>
