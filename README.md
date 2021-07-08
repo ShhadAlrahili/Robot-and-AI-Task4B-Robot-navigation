@@ -11,9 +11,9 @@
   
 3- make launch file:
   <br>
-  <launch>
+  [<launch>
   <node name="task4b" pkg="ai_task" type="task4b.py" />
-  <launch/>
+  <launch/>]
    
 4- run the node:
   <br>
