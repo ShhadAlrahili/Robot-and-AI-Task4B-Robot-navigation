@@ -6,9 +6,8 @@
  $ cd ~/catkin_ws/src
  $ catkin_create_pkg ai_task geometry_msgs roscpp rospy std_msgs
   <br>
-2- write python script:
-  <br>
-  
+2- write python script.
+  <br>  
 3- make launch file:
   <br>
   &lt;launch&gt;
