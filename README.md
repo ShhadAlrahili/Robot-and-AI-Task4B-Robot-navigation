@@ -17,11 +17,16 @@
    
 4- run the node:
   <br>
-    a- run gazeibo: roslaunch turtlebot3_gazebo turtlebot3_house.launch
-    b- run rivs: 
-    c- run the new node using this commands:<br>
+    a- run gazebo: roslaunch turtlebot3_gazebo turtlebot3_house.launch
+    <br>
+    b- run rivs: roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
+      <br>
+    c- run the new node using this commands:
+    <br>
     $ cd catkin_ws
+      <br>
     $ source devel/setup.bash
+      <br>
     $ roslaunch ai_task pub.launch
     
    
